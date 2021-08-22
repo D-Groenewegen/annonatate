@@ -1,0 +1,45 @@
+---
+canvas: "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100123802655.0x000021"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Da fechain an fognann sin mar gles. Misi Maolmuire \u00d3 Clerig",
+            "purpose": "tagging",
+            "creator": {
+                "id": "D-Groenewegen",
+                "name": "D-Groenewegen"
+            },
+            "created": "2021-08-22T12:34:09.879Z",
+            "modified": "2021-08-22T12:34:23.266Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Pen-trial, f. 11v (16th century)",
+            "purpose": "editing",
+            "creator": {
+                "id": "D-Groenewegen",
+                "name": "D-Groenewegen"
+            },
+            "created": "2021-08-22T12:34:29.439Z",
+            "modified": "2021-08-22T12:34:48.194Z"
+        }
+    ],
+    "target": {
+        "source": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100123802655.0x000021",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:1206.9930419921875,1911.2724609375,1880.3055419921875,947.5556640625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100123802477.0x000001/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/30f547f6-2677-4d02-97aa-3a593fb5c3a2.json"
+}
