@@ -1,0 +1,37 @@
+---
+canvas: "https://www.isos.dias.ie/manuscript/BL_Egerton_MS_88/seq/014.tif"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "A tract in several sections, upon the law of 'Einechlann,' or 'Honour-price,' for injuries of various kinds done to the privileged classes : and first of injury to the person [O'C. 2187].  Begins:\u2014\"Cia roich eneclann slicht eitgid airlither aithginuib indrucib othrus\\\" i.e. \"Who are they that according to the law awarding compensation for bodily injury are entitled to the same ?\" f. 2, col. 1.  This page, having for a length of time acted as cover, is much defaced.",
+            "purpose": "tagging",
+            "creator": {
+                "id": "D-Groenewegen",
+                "name": "D-Groenewegen"
+            },
+            "created": "2023-12-02T18:53:34.926Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://d-groenewegen.github.io/annonatate/manifests/www.isos.dias.ie/static/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://www.isos.dias.ie/manuscript/BL_Egerton_MS_88/seq/014.tif",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=680.5596923828125,876.2968139648438,2020.0504150390625,211.21173095703125"
+        }
+    },
+    "id": "1389a8c6-e08e-47e4-a1c0-e15b7dc9afdf.json",
+    "motivation": "commenting"
+}
