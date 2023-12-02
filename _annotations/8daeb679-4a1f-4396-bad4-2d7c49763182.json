@@ -1,0 +1,38 @@
+---
+canvas: "https://damsssl.llgc.org.uk/iiif/2.0/4665992/canvas/4665993.json"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Bach-y-Graig",
+            "purpose": "describing",
+            "creator": {
+                "id": "D-Groenewegen",
+                "name": "D-Groenewegen"
+            },
+            "created": "2023-12-02T15:25:20.551Z",
+            "modified": "2023-12-02T15:25:31.457Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/canvas/4665993.json",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=18842.251953125,7205.06494140625,690.701171875,167.3056640625"
+        }
+    },
+    "id": "8daeb679-4a1f-4396-bad4-2d7c49763182.json",
+    "motivation": "commenting"
+}
