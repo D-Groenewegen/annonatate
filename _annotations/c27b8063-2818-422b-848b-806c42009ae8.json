@@ -1,0 +1,38 @@
+---
+canvas: "https://www.isos.dias.ie/manuscript/BL_Egerton_MS_88/seq/034.tif"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "fig. 72.  British Library Egerton 88 f. 12 vb",
+            "purpose": "commenting",
+            "creator": {
+                "id": "D-Groenewegen",
+                "name": "D-Groenewegen"
+            },
+            "created": "2024-08-28T11:42:46.998Z",
+            "modified": "2024-08-28T11:42:58.236Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://d-groenewegen.github.io/annonatate/manifests/www.isos.dias.ie/static/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://www.isos.dias.ie/manuscript/BL_Egerton_MS_88/seq/034.tif",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1239.01708984375,5623.18896484375,3564.052734375,1008.34375"
+        }
+    },
+    "id": "c27b8063-2818-422b-848b-806c42009ae8.json",
+    "motivation": "commenting"
+}
