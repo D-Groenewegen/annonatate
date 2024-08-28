@@ -4,21 +4,38 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
+            "created": "2024-08-28T11:42:46.998Z",
+            "creator": {
+                "id": "D-Groenewegen",
+                "name": "D-Groenewegen"
+            },
+            "modified": "2024-08-28T11:42:58.236Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "fig. 72.  British Library Egerton 88 f. 12 vb",
+            "value": "fig. 72.  British Library Egerton 88 f. 12 vb"
+        },
+        {
+            "type": "TextualBody",
+            "value": "\u201cIn Egerton 88 (fig. 72 above), an abstract manicule by a later hand is accompanied by the abbreviation N.B (nota bene), drawing the reader\u2019s attention to a lengthy colophon which begins in the middle of the last line and runs into the bottom margin, where it is written upside down\u201d",
             "purpose": "commenting",
             "creator": {
                 "id": "D-Groenewegen",
                 "name": "D-Groenewegen"
             },
-            "created": "2024-08-28T11:42:46.998Z",
-            "modified": "2024-08-28T11:42:58.236Z"
+            "created": "2024-08-28T11:47:23.070Z",
+            "modified": "2024-08-28T11:47:24.534Z"
         }
     ],
+    "id": "c27b8063-2818-422b-848b-806c42009ae8.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1239.01708984375,5623.18896484375,3564.052734375,1008.34375"
+        },
         "source": {
             "partOf": {
                 "id": "https://d-groenewegen.github.io/annonatate/manifests/www.isos.dias.ie/static/manifest.json",
@@ -26,13 +43,7 @@ order: 1
             },
             "id": "https://www.isos.dias.ie/manuscript/BL_Egerton_MS_88/seq/034.tif",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1239.01708984375,5623.18896484375,3564.052734375,1008.34375"
         }
     },
-    "id": "c27b8063-2818-422b-848b-806c42009ae8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
